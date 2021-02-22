@@ -3,8 +3,9 @@ package SelfPractice;
 public class LinkedMain {
     public static void main(String[] args){
         LinkedList list = new LinkedList();
-        int[] array = {0};
-        int[] array2 = {0};
+        IntersectionNode node = new IntersectionNode();
+        int[] array = {4,1,8,4,5};
+        int[] array2 = {5,6,1,8,4,5};
 //        int[] array = {};
         //list.addHead(2);
         //list.addHead(1);
@@ -17,7 +18,9 @@ public class LinkedMain {
         list.printList(head);
         LinkedList list2 = list.createList(array2);
         list.printList(list2);
-        LinkedList node = list.merge2SortedList(head,list2);
+        LinkedList result = node.getIntersectionNode(head,list2);
+        node.printList(result);
+//        LinkedList node = list.merge2SortedList(head,list2);
 //        LinkedList node = list.rotateRight(head,5);
         list.printList(node);
 //        LinkedList node = list.removeDuplicateNodes(head);

@@ -664,31 +664,33 @@ public class LinkedList {
         LinkedList temp2 = l2;
         LinkedList result = null, head = null;
         while (temp1 != null && temp2 != null) {
-                while (temp1 != null && temp2 !=  null && temp1.data <= temp2.data) {
-                    if(result == null){
-                        result = head = temp1;
-                    }else{
-                        result.next = temp1;
-                        result = result.next;
-                    }
-                    temp1 = temp1.next;
+            while (temp1 != null && temp2 != null && temp1.data <= temp2.data) {
+                if (result == null) {
+                    result = head = temp1;
+                } else {
+                    result.next = temp1;
+                    result = result.next;
                 }
-                while (temp2 != null && temp1 != null && temp2.data < temp1.data ) {
-                    if(result == null){
-                        result = temp2;
-                        head = result;
-                    }else {
-                        result.next = temp2;
-                        result = result.next;
-                    }
-                    temp2 = temp2.next;
-                }
+                temp1 = temp1.next;
             }
-        if(temp2 != null){
+            while (temp2 != null && temp1 != null && temp2.data < temp1.data) {
+                if (result == null) {
+                    result = temp2;
+                    head = result;
+                } else {
+                    result.next = temp2;
+                    result = result.next;
+                }
+                temp2 = temp2.next;
+            }
+        }
+        if (temp2 != null) {
             result.next = temp2;
         }
-        if(temp1 != null){
-            result.next = temp1;
+        if (temp1 != null) {
+            if (temp1 != null) {
+                result.next = temp1;
+            }
         }
         return head;
     }
