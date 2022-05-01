@@ -17,7 +17,7 @@ An interactive React application to let users login, create, edit, delete, and v
 
 ### Users can view saved flashcards
 <!-- <img src="images/ViewFlashcards.webm" alt="Oops...cant display"> -->
-![view flashcards](SelfPractice\flashcards\images\ViewFlashcards.webm)
+![view](images\ViewFlashcards.webm)
 
 ### Users can edit flashcards
 <!-- <img src="images/EditFlashcards.webm" alt="Oops...cant display"> -->
