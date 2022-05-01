@@ -13,7 +13,7 @@ An interactive React application to let users login, create, edit, delete, and v
 
 ### Users can create flashcards
 <!-- <img src="images/AddNewFlashcard.webm" alt="Oops...cant display"> -->
-![add flashcards](images/AddNewFlashcard.webm)
+![add flashcards](images/AddNewFlashcard.mov)
 
 ### Users can view saved flashcards
 <!-- <img src="images/ViewFlashcards.webm" alt="Oops...cant display"> -->
