@@ -9,22 +9,27 @@ An interactive React application to let users login, create, edit, delete, and v
 ## Key Features
 
 ### Users can Login into flashcards
-<img src="images/login.webm" alt="Oops...cant display">
+![login](screenshot/login.png)
 
 ### Users can create flashcards
-<img src="images/AddNewFlashcard.webm" alt="Oops...cant display">
+<!-- <img src="images/AddNewFlashcard.webm" alt="Oops...cant display"> -->
+![add flashcards](images/AddNewFlashcard.webm)
 
 ### Users can view saved flashcards
-<img src="images/ViewFlashcards.webm" alt="Oops...cant display">
+<!-- <img src="images/ViewFlashcards.webm" alt="Oops...cant display"> -->
+![view flashcards](images/userDetailAndFormula.png)
 
 ### Users can edit flashcards
-<img src="images/EditFlashcards.webm" alt="Oops...cant display">
+<!-- <img src="images/EditFlashcards.webm" alt="Oops...cant display"> -->
+![edit](images/EditFlashcards.webm)
 
 ### Users can delete flashcards
-<img src="images/DeleteFlashcard.webm" alt="Oops...cant display">
+<!-- <img src="images/DeleteFlashcard.webm" alt="Oops...cant display"> -->
+![delete](images/DeleteFlashcard.webm)
 
 ### Users can practice their flashcards
-<img src="images/PracticeFlashcards.webm" alt="Oops...cant display">
+<!-- <img src="images/PracticeFlashcards.webm" alt="Oops...cant display"> -->
+![practice](images/PracticeFlashcards.webm)
 
 ### Getting Started
 
