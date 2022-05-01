@@ -1,0 +1,26 @@
+.home-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    width: 60%;
+    padding: 10px;
+    
+}
+.home-page-content h2,
+.home-page-content h3{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.home-page-content ul{
+    list-style-type: none;
+}
+.home-page-content li{
+    padding:0.5rem;
+}
+
+.home-page-content span{
+    font-size: 1.5rem;
+}
