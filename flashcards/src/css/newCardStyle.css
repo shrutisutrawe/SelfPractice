@@ -1,0 +1,125 @@
+@media screen and (min-width: 500px){
+  
+
+.new-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    width: 60%;
+    padding: 10px;
+    
+}
+
+.success-status-panel{
+  display: flex;
+  justify-content: center;
+  color: green;
+  padding: 10px;
+}
+.new-card-container h3{
+    text-align: center;
+    color:firebrick;
+    margin-top: 5%;
+}
+.new-card-form{
+    width:400px;
+    height: 300px;
+    bottom:20%;
+    left:0;
+    right:0;
+    margin: auto;
+    border-radius: 5px;
+    background-color: darkcyan;
+    overflow: auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+  
+  .new-card-container form input[type="text"]{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin: 10px 30px;
+    padding: 0 15px;
+    overflow: hidden;
+  }
+  .new-card-container form button {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 60px;
+    margin-bottom: 0;
+    background-color: #659DBD;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+  }
+}
+
+@media screen and (max-width:499px){
+
+  .success-status-panel{
+    display: flex;
+    justify-content: center;
+    color: green;
+    padding:10px;
+  }
+  .new-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    width: 60%;
+    padding: 10px;
+    
+}
+
+.new-card-container h3{
+    text-align: center;
+    color: firebrick;
+    margin-top: 5%;
+}
+.new-card-form{
+    position: relative;
+    width:300px;
+    height: 300px;
+    bottom:20%;
+    left:0;
+    right:0;
+    margin: auto;
+    border-radius: 5px;
+    background-color: darkcyan;
+    overflow: auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    flex-direction: column;
+}
+  .new-card-container form input[type="text"]{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin: 10px 30px;
+    padding: 0 15px;
+    overflow: hidden;
+  }
+  .new-card-container form button {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 60px;
+    margin-bottom: 0;
+    background-color: #659DBD;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+  } 
+}

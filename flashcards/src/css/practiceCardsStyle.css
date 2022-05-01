@@ -1,0 +1,149 @@
+.practice-card-container h2{
+    text-align: center;
+    color: firebrick;
+}
+
+@media screen and (min-width:500px) {
+ 
+
+.practice-card-container select{
+    width:400px;
+    height:1.5rem;
+    margin:10px 10%;
+}
+.practice-card-container{
+    position: absolute;
+    width:500px;
+    height:400px;
+    left:50%;
+    top:50%;
+    margin-top:2rem;
+    transform: translate(-50%,-50%);
+
+}
+.next-card,.prev-card{
+    border:none;
+    background: none;
+    position: absolute;
+    top:60%;
+    left:0;
+    width:50px;
+    height:50px;
+    font-size:3rem;
+    color:black;
+    cursor:pointer;
+    user-select: none;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slide.active{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transition-duration: 1s;
+    transform:scale(1);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 2rem;
+}
+.practice-flashcard{
+    position: absolute;
+    width: 400px;
+    max-width: 400px;
+    height: 220px;
+    top:60%;
+    left:50%;
+    right:0;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: black;
+    transform: translate(-50%,-50%);
+    overflow: auto;
+}
+.next-card{
+    left:calc(100% - 50px);
+}
+
+
+.flip-card .card-question,
+.flip-card .card-answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:2rem;
+}
+.flip-card button{
+    margin-top:5rem;
+    margin-bottom: 0;
+}
+.flip-card h4{
+    padding:0 2rem;
+}
+
+}
+@media screen and (max-width: 499px){
+    .practice-card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }   
+    .practice-card-container select{
+        width: 300px;
+        max-width: 300px;
+
+    }
+    .next-card,
+    .prev-card{
+        position: relative;
+        border:none;
+        background: none;
+        width:50px;
+        height:50px;
+        font-size:3rem;
+        margin-left: 40%;
+        margin-top:1rem;
+        color:black;
+        cursor:pointer;
+        user-select: none;
+        text-decoration: none;
+        transition: all 0.3s;
+    }    
+    .practice-flashcard{
+        position: relative;
+        width: 300px;
+        max-width: 300px;
+        height: 200px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: darkcyan;
+        color: black;
+        overflow: auto;
+
+    }
+    .slide.active{
+        margin:2rem;
+        display: flex;
+        justify-content: center;
+        opacity: 1;
+        transition-duration: 1s;
+        transform:scale(1);
+    }
+    .flip-card .card-question,
+    .flip-card .card-answer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:2rem;
+    }   
+    .flip-card h4{
+        padding:0 2rem;
+    }
+}
