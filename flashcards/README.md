@@ -9,27 +9,27 @@ An interactive React application to let users login, create, edit, delete, and v
 ## Key Features
 
 ### Users can Login into flashcards
-![login](screenshot/login.png)
+![login](images/login.gif)
 
 ### Users can create flashcards
 <!-- <img src="images/AddNewFlashcard.webm" alt="Oops...cant display"> -->
-![add flashcards](images/AddNewFlashcard.mov)
+![add flashcards](images/AddNewFlashcard.gif)
 
 ### Users can view saved flashcards
 <!-- <img src="images/ViewFlashcards.webm" alt="Oops...cant display"> -->
-![view](images\ViewFlashcards.webm)
+![view](images\ViewFlashcards.gif)
 
 ### Users can edit flashcards
 <!-- <img src="images/EditFlashcards.webm" alt="Oops...cant display"> -->
-![edit](images/EditFlashcards.webm)
+![edit](images/EditFlashcards.gif)
 
 ### Users can delete flashcards
 <!-- <img src="images/DeleteFlashcard.webm" alt="Oops...cant display"> -->
-![delete](images/DeleteFlashcard.webm)
+![delete](images/DeleteFlashcard.gif)
 
 ### Users can practice their flashcards
 <!-- <img src="images/PracticeFlashcards.webm" alt="Oops...cant display"> -->
-![practice](images/PracticeFlashcards.webm)
+![practice](images/PracticeFlashcards.gif)
 
 ### Getting Started
 
